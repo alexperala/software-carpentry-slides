@@ -45,8 +45,11 @@ body {
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   line-height: 0.9em;
   letter-spacing: -0.02em;
-  text-transform: uppercase;
   text-shadow: none; }
+
+.reveal h1 {
+  text-transform: uppercase;
+}
 
 /*********************************************
  * LINKS
