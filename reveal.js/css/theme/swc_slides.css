@@ -110,6 +110,7 @@ div.reveal blockquote {
   box-shadow:none;
   font-style:normal;
   margin-top:-10px;
+  width:100%;
   color:#2f3d64;
 }
 
@@ -263,7 +264,7 @@ div.leftside {
   float:left;
   border-right:1px solid black;
   padding-right:25px;
-  padding-left:10px;
+  padding-left:30px;
 }
 
 div.rightside {
@@ -272,7 +273,7 @@ div.rightside {
   margin-left:-1px;
   border-left:1px solid black;
   padding-left:20px;
-  padding-right:10px;
+  padding-right:30px;
 }
 
 /*********************************************
@@ -291,6 +292,14 @@ div.reveal div.slides section div.code p, div.reveal div.slides section div.code
   font-size:0.85em;
   margin-bottom:5px;
 }
+
+/*********************************************
+ * VIDEO
+ *********************************************/
+
+ div.reveal div.slides section video {
+  margin-top:-7px;
+ }
 
 /*********************************************
  * CLOSING SLIDE
@@ -326,3 +335,4 @@ div.reveal aside.controls {
   bottom:42px;
   right:-10px;
 }
+
